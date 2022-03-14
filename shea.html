@@ -452,10 +452,10 @@
 													<span class="control-label">QTY :</span>
 													<div class="qty">
 														<div class="input-group">
-															<input type="text" name="qty" value="1" data-min="1">
+															<input id="quantityValue" type="text" name="qty" value="1" data-min="1">
 															<span class="adjust-qty">
-																<span class="adjust-btn plus">+</span>
-																<span class="adjust-btn minus">-</span>
+																<button onclick="adjustPlus()"><span class="adjust-btn plus">+</button></span>
+																<button onclick="adjustMinus()"><span class="adjust-btn minus">-</button></span>
 															</span>
 														</div>
 													</div>
